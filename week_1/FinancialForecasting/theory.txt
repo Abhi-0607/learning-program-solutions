@@ -1,0 +1,16 @@
+1. Understand Recursive Algorithms:
+
+--> Explain the concept of recursion and how it can simplify certain problems.
+    Recursion is a method where a function calls itself.
+
+    ex: real case- climbing 100 stairs. This includes making one step, and repeating this step till you reach the goal. 
+        which means you are calling the same action again and again.
+
+4.	Analysis:
+
+--> Discuss the time complexity of your recursive algorithm.
+    Time complexity of a recursive algoritm is O(n) because it makes n recursive calls to reach the goal/base case.
+
+--> Explain how to optimize the recursive solution to avoid excessive computation.
+    The current has no overlapping problems or iteration problems.
+    
