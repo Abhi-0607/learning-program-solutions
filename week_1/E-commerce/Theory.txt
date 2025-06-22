@@ -1,0 +1,24 @@
+1. Understanding Asymptotic Notations:
+
+--> Explain Big O notation and how it helps in analyzing algorithms?
+    Big O notation defines the performance and complexity of an algorithm in terms of how quickly it runs as the input size grows.
+    It tells us how fast the algorithm runs, and how the performance varies with more data.
+    It is represented with capital o i,e "O()".
+    They usually represent the Best, average and worst case scenorios for an algorithm.
+
+--> Describe the best, average and worst-case scenarios for search operations.
+    Linear Search:
+    Best case -- O(1) : Key is the first Element
+    Average case -- O(n/2) : key is in Middle
+    Worst case -- O(n) : key is at last
+
+    Binary Search:
+    Best case -- O(1) : Key is the first Element
+    Average case -- O(log n) : key is in Middle
+    Worst case -- O(log n) : key is at last
+
+4. Discuss which algorithm is more suitable for your platform and why?
+   For my platform Linear Search is best suitable. Because i have a sorted array and the number ofproducts I have is less in number.
+   In this case Linear search algorithm would be the best suitable, hence I would prefer Linear Search.
+   But, to make is scalable, and if my input will grom in the future, i would choose to implement Binary search.
+   Beacuse Binary search works well for large dataset, wheres Linear Search losses its efficienct when it comes to larger datasets.
